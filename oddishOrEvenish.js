@@ -5,11 +5,9 @@ function oddishOrEvenish(n) {
       sum = sum + (n % 10)
       n = Math.floor(n / 10)
   }
-
   if (sum % 2 == 0) {
       return "Even"
   }
-
   return "Odd"
 }
 console.log(oddishOrEvenish(43))
